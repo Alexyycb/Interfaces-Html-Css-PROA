@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+main{
+    position: relative;
+    width: 90%;
+    height: 800px;
+    background-color: aquamarine;
+    margin: auto;
+}
+
+#cabecalho{
+    position: relative;
+    width: 100%;
+    height: 150px;
+    background-color: blueviolet;
+}
+#menu{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background-color: bisque;
+}
+#esquerda{
+    position: relative;
+    width: 30%;
+    height: 450px;
+    background-color: cadetblue;
+    float: left;
+}
+#direita{
+    position: relative;
+    width: 70%;
+    height: 450px;
+    background-color:cyan;
+    float: left;
+}

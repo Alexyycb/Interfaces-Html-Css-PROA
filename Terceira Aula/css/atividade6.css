@@ -1,0 +1,56 @@
+#azul{
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+    color: black;
+    text-align: center;
+    top: 5px;
+    left: 300px;
+    z-index: 1;
+}
+#vermelha{
+    position: absolute;
+    width: 800px;
+    height: 100px;
+    background-color: red;
+    color: black;
+    text-align: center;
+    top: 5px;
+    left: 500px;
+    z-index: 1;
+}
+#verde{
+    position: absolute;
+    width: 1000px;
+    height: 50px;
+    background-color:chartreuse;
+    color: black;
+    text-align: center;
+    top: 105px;
+    left: 300px;
+    z-index: 1;
+}
+#amarela{
+    position: absolute;
+    width: 981px;
+    height: 481px;
+    background-color: yellow;
+    border: 10px solid red;
+    color: black;
+    text-align: center;
+    top: 155px;
+    left: 300px;
+    z-index: 1;
+}
+#cinza{
+    position: absolute;
+    width: 1000px;
+    height: 50px;
+    background-color:gray;
+    color: black;
+    text-align: center;
+    top: 655px;
+    left: 300px;
+    z-index: 1;
+}
