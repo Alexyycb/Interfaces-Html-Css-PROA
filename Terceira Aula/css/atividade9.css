@@ -6,9 +6,63 @@
 }
 #fundo{
     position: relative;
-    width: 900px;
-    height: 800px;
-    background-color: blue;
+    width: 1000px;
+    height: 650px;
+    background-color:rgb(200, 218, 253);
     margin: auto;
     margin-top: 15px;
+}
+#topo{
+    position: relative;
+    width: 1000px;
+    height: 150px;
+    background-color:rgb(112, 225, 216);
+    font-size: 50px;
+    text-align: center;
+    padding: 35px;
+}
+#le{
+    position: relative;
+    width: 90px;
+    height: 460px;
+    background-color:rgb(200, 218, 253);
+    float: left;
+}
+#conteudo{
+    position: relative;
+    width: 750px;
+    height: 460px;
+    background-color: rgb(206, 220, 220);
+    float: left;
+}
+#rodape{
+    position: relative;
+    width: 1000px;
+    height: 40px;
+    background-color:deepskyblue;
+    clear: left;
+}
+#branco1{
+    position: absolute;
+    width: 150px;
+    height: 130px;
+    background-color: white;
+    top: 150px;
+    left: 845px;
+    z-index: 2;
+}
+#branco2{
+    position: absolute;
+    width: 150px;
+    height: 130px;
+    background-color: white;
+    top: 285px;
+    left: 845px;
+    z-index: 2;
+}
+#camera{
+    position: absolute;
+    top: 460px;
+    left: 700px;
+    z-index: 2;
 }
