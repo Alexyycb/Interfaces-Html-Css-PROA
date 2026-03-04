@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+main{
+    position: relative;
+    width: 70%;
+    height: 625px;
+    background-color: cadetblue;
+    margin: auto;
+    margin-top: 25px;
+}
+header{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background-color:greenyellow;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 30px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#lado_esquerdo{
+    position: relative;
+    width: 30%;
+    height: 445px;
+    background-color:aqua;
+    font-family:Arial, Helvetica, sans-serif;
+    float: left;
+}
+nav{
+    position: relative;
+    width: 90%;
+    height: 200px;
+    background-color:white;
+    margin-left: 15px;
+    float: left;    
+}
+aside{
+    position: relative;
+    width: 90%;
+    height: 200px;
+    background-color:white;
+    margin-left: 15px;
+    margin-top: 15px;
+    float: left;        
+}
+#lado_direito{
+    position: relative;
+    width: 70%;
+    height: 445px;
+    background-color:mediumslateblue;
+    font-family:Arial, Helvetica, sans-serif;   
+    float: left; 
+}
+article{
+    position: relative;
+    width: 97%;
+    height: 410px;
+    background-color:rgb(248, 229, 206);  
+    margin: auto;  
+    margin-top: 18px;
+}
+h1{
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    background-color: aqua;
+}
+p{
+    position: relative;
+    background-color: rgba(220, 20, 60, 0.849);
+    color: white;
+    margin-top: 15px;
+    height: 150px; 
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+div{
+    position: relative;
+    width: 100%;
+    height: 190px;
+    background-color:rgb(205, 179, 229);
+    color: white;
+    display: flex;
+    text-align: left;
+    vertical-align: top;
+    margin-top: 5px;  
+}
+footer{
+    position: relative;
+    width: 100%;
+    height: 79px;
+    background-color:rgb(46, 12, 12);
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    clear: left; 
+}
