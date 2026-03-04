@@ -4,7 +4,6 @@
     border: 0;
     box-sizing: border-box;
 }
-
 main{
     position: relative;
     width: 80%;
@@ -16,7 +15,6 @@ main{
     text-align: center;
     margin: auto;
 }
-
 #header1{
     position: relative;
     width: 100%;
@@ -26,7 +24,6 @@ main{
     align-items: center;
     justify-content: space-around;
 }
-
 #nav1{
     position: relative;
     width: 100%;

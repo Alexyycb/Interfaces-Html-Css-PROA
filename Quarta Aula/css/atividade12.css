@@ -4,18 +4,16 @@
     border: 0;
     box-sizing: border-box;
 }
-
 main{
     position: relative;
     width: 80%;
     height: 720px;
-    background-color: aquamarine;
+    background-color: wheat;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     margin: auto;
 }
-
 #header1{
     position: relative;
     width: 100%;
@@ -26,13 +24,14 @@ main{
     align-items: center;
     justify-content: space-around;
 }
-
 #nav1{
     position: relative;
     width: 100%;
     height: 45px;
     background-color: darkblue;
-    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
     float: left;
 }
 #nav2{
@@ -40,84 +39,116 @@ main{
     width: 20%;
     height: 510px;
     background-color:rgb(220, 220, 195);
+    display: flex; 
+    flex-direction: column;
+    gap: 1px;
     float: left;
+}
+#nav2 a{
+    position: relative;
+    width: 100%;
+    height: 60px;
+    background-color: gray;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
 }
 section{
     position: relative;
     width: 60%;
     height: 510px;
-    background-color:rgb(237, 194, 233);
+    background-color:white;
     float: left;
 }
 #header2{
     position: relative;
     width: 96%;
-    height: 40px;
-    background-color: white;
+    height: 60px;
     color: black;
-    font-size: medium;
+    font-size: larger;
     display: flex;
-    align-items: center;
+    padding: 10px;
     justify-content: space-around;
     margin: auto;
 }
-#div1{
+#banner{
     position: relative;
     width: 96%;
     height: 180px;
-    background-color:rgb(168, 106, 47);
     margin: auto;   
     margin-top: 10px;
+}
+#banner img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 p{
     position: relative;
     width: 96%;
     height: 100px;
-    background-color:rgb(198, 190, 241);
+    background-color:rgb(198, 240, 240);
     color: black;
     font-size: small;
+    margin: auto;
     display: flex;
-    margin: auto; 
-    margin-top: 10px;    
+    text-align: justify;
+    margin-top: 10px;  
+    
 }
 #div2{
     position: relative;
-    width: 31%;
-    height: 100px;
-    background-color:dimgray;
-    margin-left: 15px;   
+    width: 28%;
+    height: 130px;
+    margin-left: 18px;   
     margin-top: 10px;
     float: left;
+}
+#div2 img{
+    width: 100%;
+    height: 100%;
 }
 #div3{
     position: relative;
-    width: 31%;
-    height: 100px;
-    background-color:dimgray;
-    margin-left: 10px;   
+    width: 28%;
+    height: 130px;
+    margin-left: 40px;   
     margin-top: 10px;
     float: left;
 }
+#div3 img{
+    width: 100%;
+    height: 100%;
+}
 #div4{
     position: relative;
-    width: 31%;
-    height: 100px;
-    background-color:dimgray;
-    margin-left: 10px;   
+    width: 28%;
+    height: 130px;
+    margin-left: 40px;   
     margin-top: 10px;
     float: left;
+}
+#div4 img{
+    width: 100%;
+    height: 100%;
 }
 aside{
     position: relative;
     width: 20%;
     height: 510px;
-    background-color:rgb(238, 81, 238);
     float: left;
 } 
+aside img{
+    width: 100%;
+    height: 100%;
+
+}
 footer{
     position: relative;
     width: 100%;
     height: 65px;
     background-color: black;
+    font-size: 40px;
+    padding-top: 12px;
     clear: left;
 }
